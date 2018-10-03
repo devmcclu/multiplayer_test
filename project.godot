@@ -14,6 +14,10 @@ config/name="MultiPlayerSpaceShooter"
 run/main_scene="res://Lobby.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+ConnectionManager="*res://ConnectionManager.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
